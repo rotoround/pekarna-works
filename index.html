@@ -3,21 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pekárna — prostor pro vlastní práci / Prague 7</title>
-  <meta name="description" content="Pekárna je sdílený tvůrčí prostor v pražských Holešovicích. Místo pro práci, modely a experimenty. A shared creative workspace in Prague 7.">
+  <title>Pekárna — sdílený ateliér a coworking na Letné, Praha 7</title>
+  <meta name="description" content="Sdílený ateliér, coworking a makerspace na Letné v Praze 7. Shared studio & creative workspace in Letná, Prague. Přijď se mrknout, první měsíc na zkoušku.">
   <meta name="theme-color" content="#f2f1eb">
   <link rel="canonical" href="https://pekarna.works/">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="cs_CZ">
   <meta property="og:locale:alternate" content="en_GB">
   <meta property="og:site_name" content="Pekárna">
-  <meta property="og:title" content="Pekárna — prostor pro vlastní práci">
-  <meta property="og:description" content="Sdílený tvůrčí prostor / A shared creative workspace. Prague 7 — Holešovice.">
+  <meta property="og:title" content="Pekárna — ateliér na Letné / Shared studio in Letná">
+  <meta property="og:description" content="Sdílený ateliér, coworking a makerspace na Letné. A shared studio for architects, designers and makers. Letná / Prague 7. Přijď se mrknout / Come take a look.">
   <meta property="og:url" content="https://pekarna.works/">
   <meta property="og:image" content="https://pekarna.works/og-pekarna.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:image:alt" content="Pekárna — tvůrčí pracovní prostor pod bílou klenbou v Holešovicích">
+  <meta property="og:image:alt" content="Pekárna — tvůrčí pracovní prostor pod bílou klenbou na Letné">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="icon" href="favicon.ico" sizes="32x32">
@@ -25,7 +25,36 @@
   <link rel="preload" href="space-grotesk.ttf" as="font" type="font/ttf" crossorigin>
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Pekárna","url":"https://pekarna.works/","email":"ahoj@pekarna.works","description":"Sdílený tvůrčí prostor v pražských Holešovicích. A shared creative workspace in Prague 7.","image":"https://pekarna.works/og-pekarna.jpg"}</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://pekarna.works/#organization",
+        "name": "Pekárna",
+        "url": "https://pekarna.works/",
+        "email": "ahoj@pekarna.works",
+        "telephone": "+420703631401",
+        "description": "Sdílený ateliér, coworking a makerspace na Letné v Praze 7, Holešovicích. A shared studio, creative coworking space and makerspace in Letná, Prague 7.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Praha 7 — Letná, Holešovice",
+          "addressCountry": "CZ"
+        },
+        "image": "https://pekarna.works/og-pekarna.jpg"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://pekarna.works/#website",
+        "name": "Pekárna",
+        "url": "https://pekarna.works/",
+        "inLanguage": ["cs", "en"],
+        "publisher": {"@id": "https://pekarna.works/#organization"}
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
   <a class="skip" href="#main">Přejít k obsahu</a>
@@ -34,7 +63,7 @@
       <svg class="axes" viewBox="0 0 68 64" aria-hidden="true"><path d="M30 36V6M30 36 58 52M30 36 4 52"/><circle cx="30" cy="36" r="2.5"/><text x="34" y="11">z</text><text x="57" y="44">x</text><text x="5" y="43">y</text></svg>
       <span>PEKÁRNA<span class="identity-sub">SHARED CREATIVE SPACE</span></span>
     </a>
-    <span class="location">Prague 7 / Holešovice</span>
+    <span class="location">Letná / Prague 7</span>
     <a class="top-contact" href="#kontakt">Napiš nám <span lang="en">/ Say hello</span></a>
   </header>
   <main id="main">
@@ -49,13 +78,13 @@
       <svg class="trajectory" viewBox="0 0 1400 2400" preserveAspectRatio="none" aria-hidden="true"><path d="M1330 0C1330 190 1190 185 1010 260S1320 680 1030 840 620 730 390 1010 125 1220 270 1390 1140 1400 1110 1620 640 1770 790 1910 1120 2070 1080 2400"/></svg>
       <section class="intro" aria-labelledby="intro-title">
         <div class="section-index">01 / PROSTOR <span lang="en">— SPACE</span></div>
-        <div class="intro-copy"><h2 id="intro-title">Každý svoje.<br>Pod jednou klenbou.</h2><p class="en-heading" lang="en">Our own things. Under one roof.</p>
-          <div class="bilingual"><p><span class="language">CZ</span>Pekárna je sdílený tvůrčí prostor v Holešovicích. Místo pro soustředěnou práci i nápady, které je lepší probrat u vedlejšího stolu.</p><p lang="en"><span class="language">EN</span>Pekárna is a shared creative workspace in Holešovice. A place to focus, and to share an idea with the person at the next desk.</p></div>
+        <div class="intro-copy"><h2 id="intro-title">Sdílený ateliér.<br>Pod jednou klenbou.</h2><p class="en-heading" lang="en">A shared studio. Under one roof.</p>
+          <div class="bilingual"><p><span class="language">CZ</span>Pekárna je sdílený ateliér na Letné, v pražských Holešovicích. Pracovní prostor pro architekty, designéry a další tvůrce. Každý svoje, ale s lidmi, se kterými můžeš probrat nápad u vedlejšího stolu.</p><p lang="en"><span class="language">EN</span>Pekárna is a shared studio in Letná, part of Holešovice in Prague 7. A creative workspace for architects, designers and other makers. Work on your own projects, with someone at the next desk to share an idea with.</p></div>
         </div>
       </section>
       <section class="making" aria-labelledby="making-title">
         <figure class="portrait" data-drift="18"><img src="pekarna-006-1200.webp" srcset="pekarna-006-600.webp 600w, pekarna-006-1200.webp 1200w" sizes="(max-width: 700px) 78vw, 37vw" width="1365" height="2048" loading="lazy" decoding="async" alt="Klenba Pekárny, pracovní stoly a kovový regál s oranžovým světlem"><figcaption>02 — POD KLENBOU <span lang="en">/ UNDER THE ARCH</span></figcaption></figure>
-        <div class="making-copy"><div class="section-index">02 / PRÁCE <span lang="en">— WORK</span></div><h2 id="making-title">Od obrazovky<br>k materiálu.</h2><p class="en-heading" lang="en">From screen to material.</p><div class="bilingual"><p><span class="language">CZ</span>Návrhy, modely, prototypy. Někdy celý den u monitoru, jindy ruce v materiálu. Prostor pro práci i zkoušení.</p><p lang="en"><span class="language">EN</span>Designs, models, prototypes. Some days on screen, others hands-on. Room to work, make and experiment.</p></div></div>
+        <div class="making-copy"><div class="section-index">02 / PRÁCE <span lang="en">— WORK</span></div><h2 id="making-title">Od obrazovky<br>k materiálu.</h2><p class="en-heading" lang="en">From screen to material.</p><div class="bilingual"><p><span class="language">CZ</span>Coworking i makerspace. Potkávají se tu architektura, design a vlastní dílny. Někdy celý den u monitoru, jindy ruce v materiálu. Místo pro návrhy, modely, prototypy i soustředěnou práci.</p><p lang="en"><span class="language">EN</span>Creative coworking and a makerspace, bringing together architecture, design and individual workshops. A place to co-work, make and experiment. Some days on screen, others hands-on with models and prototypes.</p></div></div>
         <figure class="detail" data-drift="-14"><img src="pekarna-detail-1200.webp" srcset="pekarna-detail-600.webp 600w, pekarna-detail-1200.webp 1200w" sizes="(max-width: 700px) 67vw, 28vw" width="1536" height="2048" loading="lazy" decoding="async" alt="Detail tvůrčí práce: kov, průhledné materiály a duhové odlesky"><figcaption>03 — Z PRACOVNÍHO STOLU <span lang="en">/ WORK IN PROGRESS</span></figcaption></figure>
       </section>
       <section class="space-views" aria-label="Další pohledy do Pekárny">
@@ -66,9 +95,9 @@
     </div>
     <section class="contact" id="kontakt" aria-labelledby="contact-title">
       <div class="section-index">03 / KONTAKT <span lang="en">— CONTACT</span></div>
-      <div class="contact-main"><h2 id="contact-title">Přijď se mrknout.</h2><p class="en-heading" lang="en">Come take a look.</p><div class="bilingual"><p><span class="language">CZ</span>Hledáš místo pro vlastní práci? Napiš nebo zavolej a domluvíme prohlídku. První měsíc je na zkoušku, ať zjistíš, jestli ti to u nás sedí.</p><p lang="en"><span class="language">EN</span>Looking for a place to work? Message us or give us a call to arrange a visit. Start with a one-month trial and see if the space works for you.</p></div><a class="email" href="mailto:ahoj@pekarna.works">ahoj@pekarna.works</a><p class="phone"><a href="tel:+420703631401">+420 703 631 401</a></p></div>
+      <div class="contact-main"><h2 id="contact-title">Přijď se mrknout.</h2><p class="en-heading" lang="en">Come take a look.</p><div class="bilingual"><p><span class="language">CZ</span>Hledáš sdílené studio, cowork na Letné nebo prostor pro vlastní dílnu? Napiš nebo zavolej a domluvíme prohlídku. První měsíc je na zkoušku, ať zjistíš, jestli ti to u nás sedí.</p><p lang="en"><span class="language">EN</span>Looking for a shared studio, coworking in Letná or space for your own workshop? Message us or give us a call to arrange a visit. Start with a one-month trial and see if the space works for you.</p></div><a class="email" href="mailto:ahoj@pekarna.works">ahoj@pekarna.works</a><p class="phone"><a href="tel:+420703631401">+420 703 631 401</a></p></div>
     </section>
   </main>
-  <footer><a href="#top">Pekárna<span class="full-stop">.</span></a><span>Prague 7 / Holešovice</span><span>Prostor pro vlastní práci.<br><span lang="en">A space to do your thing.</span></span></footer>
+  <footer><a href="#top">Pekárna<span class="full-stop">.</span></a><span>Letná / Prague 7</span><span>Prostor pro vlastní práci.<br><span lang="en">A space to do your thing.</span></span></footer>
 </body>
 </html>
