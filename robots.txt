@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pekarna.works/sitemap.xml
