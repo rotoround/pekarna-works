@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="cs">
 <head>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4MPJ5S7H2X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-4MPJ5S7H2X');
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Pekárna — sdílený ateliér a coworking na Letné, Praha 7</title>
@@ -23,7 +31,7 @@
   <link rel="icon" href="favicon.ico" sizes="32x32">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="preload" href="space-grotesk.ttf" as="font" type="font/ttf" crossorigin>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css?v=20261005">
   <script src="script.js" defer></script>
   <script type="application/ld+json">
   {
@@ -56,9 +64,13 @@
   }
   </script>
 </head>
-<body>
+<body id="top">
   <a class="skip" href="#main">Přejít k obsahu</a>
-  <header class="topbar" id="top">
+  <a class="availability-banner" href="#kontakt">
+    <span class="availability-copy"><span>Volná vybavená pracovní místa. Přijď se mrknout na prohlídku.</span><span lang="en">Equipped workspaces available. Come take a look.</span></span>
+    <span class="availability-arrow" aria-hidden="true">↓</span>
+  </a>
+  <header class="topbar">
     <a class="identity" href="#top" aria-label="Pekárna — začátek">
       <svg class="axes" viewBox="0 0 68 64" aria-hidden="true"><path d="M30 36V6M30 36 58 52M30 36 4 52"/><circle cx="30" cy="36" r="2.5"/><text x="34" y="11">z</text><text x="57" y="44">x</text><text x="5" y="43">y</text></svg>
       <span>PEKÁRNA<span class="identity-sub">SHARED CREATIVE SPACE</span></span>
@@ -95,7 +107,7 @@
     </div>
     <section class="contact" id="kontakt" aria-labelledby="contact-title">
       <div class="section-index">03 / KONTAKT <span lang="en">— CONTACT</span></div>
-      <div class="contact-main"><h2 id="contact-title">Přijď se mrknout.</h2><p class="en-heading" lang="en">Come take a look.</p><div class="bilingual"><p><span class="language">CZ</span>Hledáš sdílené studio, cowork na Letné nebo prostor pro vlastní dílnu? Napiš nebo zavolej a domluvíme prohlídku. První měsíc je na zkoušku, ať zjistíš, jestli ti to u nás sedí.</p><p lang="en"><span class="language">EN</span>Looking for a shared studio, coworking in Letná or space for your own workshop? Message us or give us a call to arrange a visit. Start with a one-month trial and see if the space works for you.</p></div><a class="email" href="mailto:ahoj@pekarna.works">ahoj@pekarna.works</a><p class="phone"><a href="tel:+420703631401">+420 703 631 401</a></p></div>
+      <div class="contact-main"><h2 id="contact-title">Máme volná místa.<br>Přijď se mrknout.</h2><p class="en-heading" lang="en">We have space for you.<br>Come take a look.</p><div class="bilingual"><p><span class="language">CZ</span>Hledáš sdílené studio nebo cowork na Letné? Máš tu vlastní stůl se židlí, sdílené pracovní prostory, ponk na příležitostné kutění a úložné místo na svoje věci. Napiš nebo zavolej a domluvíme prohlídku. První měsíc je na zkoušku, ať zjistíš, jestli ti to u nás sedí.</p><p lang="en"><span class="language">EN</span>Looking for a shared studio or coworking in Letná? You get your own desk and chair, shared work areas, a workbench for occasional making and tinkering, and storage for your things. Message us or give us a call to arrange a visit. Start with a one-month trial and see if the space works for you.</p></div><a class="email" href="mailto:ahoj@pekarna.works">ahoj@pekarna.works</a><p class="phone"><a href="tel:+420703631401">+420 703 631 401</a></p></div>
     </section>
   </main>
   <footer><a href="#top">Pekárna<span class="full-stop">.</span></a><span>Letná / Prague 7</span><span>Prostor pro vlastní práci.<br><span lang="en">A space to do your thing.</span></span></footer>

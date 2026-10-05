@@ -1,7 +1,7 @@
 # Pekárna / pekarna.works
 
-A small bilingual site for a shared creative workspace in Prague 7 / Holešovice.
-Plain HTML, CSS and JavaScript. No build step, framework, analytics or third-party requests.
+A small bilingual site for a shared creative workspace in Letná, Prague 7 / Holešovice.
+Plain HTML, CSS and JavaScript. No build step or framework. Google Analytics uses the owner-supplied measurement ID `G-4MPJ5S7H2X` and makes third-party requests to Google.
 
 ## Preview
 
@@ -22,12 +22,15 @@ Reference: https://docs.github.com/en/pages/configuring-a-custom-domain-for-your
 ## Content and assets
 
 - Main copy, alt text and metadata: `index.html`; styling: `style.css`.
-- CZ followed by EN in each text block. The precise address is intentionally omitted.
+- CZ followed by EN in each text block. Letná is the primary location; Holešovice is secondary. The precise address is intentionally omitted.
+- Coworking and makerspace with individual workshops. Interested people can request a visit. The first month is a trial; communal workshop equipment access is not promised.
 - Hero: PEKARNA_2026_web_002.jpg; other interiors: 006, 004, 007.
 - Work detail: EEB1E2A6-444D-402A-A1C4-793A43650D65_1_102_o.jpeg. It represents work/materials, not a photo documented as taken on the premises.
 - Photographs supplied by the owner; optimized WebP derivatives at multiple widths with embedded metadata removed. Original photographs remain outside this repository.
 - Self-hosted Space Grotesk, SIL Open Font License (see FONT-LICENSE.txt).
 - The subtle photo drift is disabled on mobile and with reduced-motion preferences. Content remains available without JavaScript.
+- The blue availability banner links to `#kontakt` using native anchor navigation; smooth scrolling respects reduced-motion preferences.
+- Available workspaces include a desk and chair, shared work areas, a workbench for occasional making and storage.
 - Open Graph preview: `og-pekarna.jpg`, 1200 × 630.
 
 No rights to the photographs are granted by publishing this repository.

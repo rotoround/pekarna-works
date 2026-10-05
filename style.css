@@ -11,3 +11,13 @@ h1{letter-spacing:-.06em}
 @media(max-width:700px){h1{letter-spacing:-.055em}}
 
 .phone{margin-top:22px;font-size:clamp(23px,2.1vw,34px);letter-spacing:-.035em}.phone a{display:inline-block;padding:8px 0;border-bottom:1px solid var(--rule)}
+
+/* Availability banner: same blue as the case-study banner on ondrejpechal.com. */
+.availability-banner{display:flex;align-items:center;justify-content:center;gap:24px;padding:11px var(--gutter);background:#246BFD;color:#fff;font-size:14px;line-height:1.45;text-align:center;transition:background-color .2s ease}
+.availability-copy{display:grid;gap:2px}
+.availability-copy [lang=en]{font-size:12px}
+.availability-arrow{font-size:23px;flex-shrink:0}
+.availability-banner:hover{background:#1858D9;color:#fff}
+.availability-banner:focus-visible{outline:2px solid #fff;outline-offset:-5px;background:#1858D9}
+@media(max-width:700px){.availability-banner{gap:14px;font-size:12px;padding-top:12px;padding-bottom:12px;text-align:left}.availability-copy [lang=en]{font-size:11px}}
+@media(prefers-reduced-motion:reduce){.availability-banner{transition:none}}
